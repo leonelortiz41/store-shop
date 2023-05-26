@@ -48,23 +48,23 @@ export function Main() {
   ))
   return (
     <>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <div style={{ maxHeight: "380px" }} class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block h-100 w-100" src={ads[0].img} alt="First slide" />
+      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+        <div style={{ maxHeight: "380px" }} className="carousel-inner">
+          <div className="carousel-item active">
+            <img className="d-block h-100 w-100" src={ads[0].img} alt="First slide" />
           </div>
-          <div class="carousel-item">
-            <img class="d-block h-100 w-100" src={ads[1].img} alt="Second slide" />
+          <div className="carousel-item">
+            <img className="d-block h-100 w-100" src={ads[1].img} alt="Second slide" />
           </div>
-          <div class="carousel-item">
-            <img class="d-block h-100 w-100" src={ads[2].img} alt="Third slide" />
+          <div className="carousel-item">
+            <img className="d-block h-100 w-100" src={ads[2].img} alt="Third slide" />
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon  rounded-circle p-2 bg-dark m-auto" aria-hidden="true"></span>
+        <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span className="carousel-control-prev-icon  rounded-circle p-2 bg-dark m-auto" aria-hidden="true"></span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon  rounded-circle p-2 bg-dark m-auto" aria-hidden="true"></span>
+        <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span className="carousel-control-next-icon  rounded-circle p-2 bg-dark m-auto" aria-hidden="true"></span>
         </a>
 
       </div>

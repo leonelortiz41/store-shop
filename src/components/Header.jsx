@@ -56,10 +56,10 @@ function Header() {
                 </button>
               </li>
               <li className="nav-item nav-item btnNavChildren">
-                <a className="btn  nav-item" href={session == null ? "/noSession" : "/shopingCart"}><BiCart />Cart</a>
+                <a className="btn  nav-item" href="/shopingCart"><BiCart />Cart</a>
               </li>
               <li className="nav-item nav-item btnNavChildren dropdown">
-                <a className="btn  nav-item" href={session == null ? "/noSession" : "/favorites"}><BiHeart />Favorites</a>
+                <a className="btn  nav-item" href="/favorites"><BiHeart />Favorites</a>
               </li>
             </ul>
             <LogIn isOpen={isOpen} closeModal={closeModal} />

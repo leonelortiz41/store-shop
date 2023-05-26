@@ -20,7 +20,8 @@ body {
 }
 
 .btnNavChildren {
-    background: #32caf8;
+    background: #32caf822;
+    backdrop-filter: blur(6px);
     --clippy:polygon(0 0, 0 0, 0 100%, 0% 100%);
 }
 
@@ -39,7 +40,6 @@ body {
 
 .btnNavChildren:hover {
     --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    background:#fff;
 }
 
 .search:hover {
