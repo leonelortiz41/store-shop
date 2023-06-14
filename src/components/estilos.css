@@ -4,6 +4,7 @@ aside {
 
 body {
     user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
@@ -13,6 +14,7 @@ body {
 
 .product {
     cursor: pointer;
+    margin-block: 10px;
 }
 
 .product:hover {
@@ -43,9 +45,13 @@ body {
 }
 
 .search:hover {
-    box-shadow: 0px 0px 4px 1.5px #1878d2;
+    background: #2265;
+    
 }
-
+.search{
+    padding: 5px;
+    border-bottom: #000 solid 2px;
+}
 .search input {
     outline: none;
     background: none;
@@ -63,6 +69,27 @@ body {
     color: #fff;
 }
 
+.btn-buy, .btn-add{
+    background: linear-gradient(to right,#fff1,#efe);
+    font-size: large;
+    border-radius: 8px;
+    justify-content: end;
+    align-items: end;
+    align-content: end;
+    width: 200px;
+    display: block;
+    border-right: #000 3px solid;
+    border-top: #000 1px solid;
+    border-bottom: #000 1px solid;
+    margin-block: 5px;
+    background-repeat: no-repeat;
+
+}
+.btn-buy:hover, .btn-add:hover{
+    background: linear-gradient(to right,#efe1,#cec);
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
 
 .modal {
     background-color: rgb(0, 0, 0, .65);
@@ -75,6 +102,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+.logo{
+    cursor: pointer;
+}
+
 
 .modal_dialog {
     background-color: rgba(222, 237, 249, 0.879);
@@ -206,7 +237,7 @@ body {
     color: #fff;
 }
 .task-background{
-    background: linear-gradient(to bottom left, #abcff252 50%, rgba(181, 253, 255, 0.366) 50%);
+    background: linear-gradient(to bottom left, #d2e4f652 50%, rgb(220, 242, 243) 50%);
     box-shadow: 0 0 6px  #000;
     border-radius: 11px;
 }

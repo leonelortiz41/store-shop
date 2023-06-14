@@ -24,7 +24,7 @@ function Header() {
       <nav className="navbar navbar-expand-md navbar-light header ">
         <div className="container-fluid d-flex justify-content-around" style={{ }} >
           <div className=" col-2 p-1  h-100">
-            <img src={logo} className="h-100" style={{maxHeight:"70px", maxWidth:"80px"}} onClick={() => window.location.href = "/"}></img>
+            <img src={logo} className="h-100 logo" style={{maxHeight:"70px", maxWidth:"80px"}} onClick={() => window.location.href = "/"}></img>
           </div>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@ function Header() {
 
           <div className="collapse  justify-content-between navbar-collapse " id="navbarSupportedContent">
 
-            <form className="col-5 d-flex justify-content-between my-auto search rounded border border-2 border-secondary px-1 "
+            <form className="col-5 d-flex justify-content-between my-auto search rounded px-1 "
               onSubmit={(e) => {
                 e.preventDefault();
                 if (search == undefined) {
