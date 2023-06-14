@@ -237,7 +237,9 @@ body {
     color: #fff;
 }
 .task-background{
-    background: linear-gradient(to bottom left, #d2e4f652 50%, rgb(220, 242, 243) 50%);
+    background: #f1ffff;
+    background-repeat: no-repeat;
+    background-size: contain;
     box-shadow: 0 0 6px  #000;
     border-radius: 11px;
 }
