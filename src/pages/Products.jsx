@@ -16,13 +16,13 @@ export function Products() {
                     <h5>characteriscs: {phones[id].capacity}</h5>
                     <h3 className=" text-success">${phones[id].price}</h3>
                     <p>shipping</p>
-                    <button className="btn btn-add d-block mx-auto p-2">Add to shoping cart</button>
+                    <button className="btn btn-add d-block mx-auto p-2">Add</button>
                     <button className="btn btn-buy d-block mx-auto p-2">buy</button>
                 </div>
             </div>
             <div>
-                <h5>Release year: {phones[id].year}</h5>
-                <h5 className="mt-10">Description: {phones[id].description}</h5>
+                <h5 className="p-3">Release year: {phones[id].year}</h5>
+                <h5 className="mt-10 p-3">Description: {phones[id].description}</h5>
             </div>
 
         </div>

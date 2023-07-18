@@ -2,6 +2,7 @@ import iphone from '../assets/iphone.png'
 export const phones=[
     {
         id:0,
+        favorite:false,
         name: "iphone 10",
         capacity: "256 GB",
         year:"2019",
@@ -12,6 +13,7 @@ export const phones=[
     },
     {
         id:1,
+        favorite:false,
         name: "iphone 14",
         capacity: "512 GB",
         year:"2022",
@@ -22,6 +24,7 @@ export const phones=[
     },
     {
         id:2,
+        favorite:false,
         name: "iphone 13 Pro Max",
         capacity: "1 TB",
         year:"2021",
@@ -32,6 +35,7 @@ export const phones=[
     },
     {
         id:3,
+        favorite:false,
         name: "iphone SE",
         capacity: "256 GB",
         year:"2022",
@@ -42,6 +46,7 @@ export const phones=[
     },
     {
         id:4,
+        favorite:false,
         name: "iphone 13 mini",
         capacity: "512 GB",
         year:"2021",
@@ -52,6 +57,7 @@ export const phones=[
     },
     {
         id:5,
+        favorite:false,
         name: "iphone 13 mini",
         capacity: "512 GB",
         year:"2021",
@@ -62,6 +68,7 @@ export const phones=[
     },
     {
         id:6,
+        favorite:false,
         name: "iphone 13 mini",
         capacity: "512 GB",
         year:"2021",
@@ -72,6 +79,7 @@ export const phones=[
     },
     {
         id:7,
+        favorite:false,
         name: "iphone 13 mini",
         capacity: "512 GB",
         year:"2021",
@@ -82,6 +90,7 @@ export const phones=[
     },
     {
         id:8,
+        favorite:false,
         name: "iphone 15 mini",
         capacity: "512 GB",
         year:"2021",
@@ -92,6 +101,7 @@ export const phones=[
     },
     {
         id:9,
+        favorite:false,
         name: "iphone 14 mini",
         capacity: "512 GB",
         year:"2021",
@@ -102,6 +112,7 @@ export const phones=[
     },
     {
         id:10,
+        favorite:false,
         name: "iphone 13 mini",
         capacity: "512 GB",
         year:"2021",

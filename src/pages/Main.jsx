@@ -37,12 +37,14 @@ export function Main() {
       <img className="col-sm-3" style={{ maxWidth: "80px" }} src={phone.image}></img>
       <h2 className='col-6 m-auto'>{phone.name}</h2>
       <div className='col- m-auto d-sm-flex '>
-        <h3 className=' text-success m-auto'>${phone.price}</h3>
-        <button className='btn text-success' style={{ visibility: (kay == phone.id || phone.favorite == true) ? "visible" : "hidden" }}
+        <h3 className=' price m-auto'>${phone.price}</h3>
+        <button className='btn btn-love price' style={{visibility: phone.favorite==true?"visible":""}}
           onClick={(e) => {
             e.stopPropagation();
-            phone.favorite = true;
-          }}>{(phone.favorite == undefined) ? <BiHeart className=' h2' /> : <BsFillHeartFill className='h2' />}</button>
+            if(phone.favorite==false)phone.favorite = true;
+            else if(phone.favorite==true)phone.favorite = false;
+
+          }}>{(phone.favorite == false) ? <BiHeart className='h2' /> : <BsFillHeartFill className='h2' />}</button>
       </div>
     </div>
   ))

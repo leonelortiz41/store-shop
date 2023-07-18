@@ -1,11 +1,11 @@
 import { users } from "../assets/users";
 import { phones } from "../assets/celulares"
 export function Favorites() {
-    let userSession = JSON.parse(localStorage.getItem("session")) || 0;
-    userSession = userSession != 0 ? userSession.id : 0;
+    let userSession = JSON.parse(localStorage.getItem("session")) || -1;
+    userSession = userSession != -1 ? userSession.id : -1;
     let user;
     let shopCart = [], i = 0, total = 0;
-    if (userSession != 0) {
+    if (userSession != -1) {
         users.forEach((u) => { if (u.id == userSession) user = u })
         user.favorites.forEach((u) => {
             phones.forEach((cel) => {
@@ -26,8 +26,8 @@ export function Favorites() {
         )
     }
     else shopCart =
-        <div className="col-md-10 border border-3 p-5 m-auto mt-5">
-            <h1 className="m-auto text-center">No hay datos.</h1>
+        <div className="col-md-10 task-background border-3 p-5 m-auto mt-5">
+            <h1 className="m-auto text-center">There is not data.</h1>
         </div>
     return (
         <>

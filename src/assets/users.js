@@ -11,7 +11,7 @@ export const users=[
         address: "Colonia 2, Colombres, Cruz Alta",
         photo:princess,
         shopingCart:[1,3,8],
-        favorites:[0,2],
+        favorites:[1,3,7],
 
     },
     {
