@@ -1,8 +1,8 @@
 :root{
-    --skyblue1:#aabbff;
-    --skyblue2:#5aabff;
-    --skyblue3:#16347a;
-    --price:#88b668;
+    --skyblue1:#a6aabb;
+    --skyblue2:#336193;
+    --skyblue3:#002782;
+    --price:#008fcb;
 }
 aside {
     background: #fff;
@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-    background: linear-gradient(to right, #fff 19%, var(--skyblue2), var(--skyblue1));
+    background: linear-gradient(to right, #fff 19%, var(--skyblue2));
 
 }
 
@@ -258,6 +258,10 @@ body {
     .navbar-collapse {
         display: flex;
         flex-direction: column;
+    }
+    .btn-love{
+        /* transition: .2s; */
+        visibility: visible;
     }
     .nota{
         bottom: 0%;

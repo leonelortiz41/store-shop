@@ -14,7 +14,7 @@ export function Products() {
                     <h1 className="text-center mt-3 text-uppercase">{phones[id].name}</h1>
                     <h5>califaction</h5>
                     <h5>characteriscs: {phones[id].capacity}</h5>
-                    <h3 className=" text-success">${phones[id].price}</h3>
+                    <h3 className=" price">${phones[id].price}</h3>
                     <p>shipping</p>
                     <button className="btn btn-add d-block mx-auto p-2">Add</button>
                     <button className="btn btn-buy d-block mx-auto p-2">buy</button>
